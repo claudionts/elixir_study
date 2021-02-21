@@ -20,3 +20,6 @@ end
 
 #Função anônima
 # multiplicador = fn a, b -> a * b end
+
+#Função anônima com operador &
+# multiplica_e_soma = &(&1 * &2 + &3)

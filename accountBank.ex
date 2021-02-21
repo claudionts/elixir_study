@@ -8,7 +8,5 @@ defmodule AccountBank do
     whatAccountType.(accountType)
   end
 
-  def getTotalBalance(correnteBalance, popancaBalance \\ 0) do
-    correnteBalance + popancaBalance
-  end
+  def getTotalBalance(correnteBalance, poupancaBalance \\ 0), do: correnteBalance + poupancaBalance
 end

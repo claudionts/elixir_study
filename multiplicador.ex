@@ -17,3 +17,6 @@ end
 defmodule Multiplicador.Multiplique do
   def por_dois(numero), do: numero * 2
 end
+
+#Função anônima
+# multiplicador = fn a, b -> a * b end

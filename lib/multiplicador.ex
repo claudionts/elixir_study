@@ -4,7 +4,7 @@ defmodule Multiplicador do
   defp soma(a, b), do: a + b
 end
 
-#Módulo aninhado
+# Módulo aninhado
 defmodule Multiplicador do
   defmodule Multiplique do
     def por_dois(numero) do
@@ -13,13 +13,13 @@ defmodule Multiplicador do
   end
 end
 
-#Módulo aninhado com ponto
+# Módulo aninhado com ponto
 defmodule Multiplicador.Multiplique do
   def por_dois(numero), do: numero * 2
 end
 
-#Função anônima
+# Função anônima
 # multiplicador = fn a, b -> a * b end
 
-#Função anônima com operador &
+# Função anônima com operador &
 # multiplica_e_soma = &(&1 * &2 + &3)
